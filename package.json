@@ -7,6 +7,7 @@
         "task1": "npm run build && node dist/task1.js",
         "task2": "npm run build && node dist/task2.js",
         "task3": "npm run build && node dist/task3.js",
+        "homework3": "npm run build && node dist/homework3.js",
         "format": "prettier --write .",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix"
