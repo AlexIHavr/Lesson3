@@ -3,4 +3,8 @@
 for (let i = 100, step = 0; i >= 0; step++) {
     console.log(i);
     i -= step + 1;
+    if (i < 0) {
+        console.log(0);
+        break;
+    }
 }
